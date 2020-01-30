@@ -1,0 +1,14 @@
+<div>
+  
+  Products Available
+
+  <p *ngFor="let product of productsList">
+    {{ product }} <button (click)=addToCart(product)>Add to Cart</button>
+  </p>
+
+</div>
+
+
+
+
+

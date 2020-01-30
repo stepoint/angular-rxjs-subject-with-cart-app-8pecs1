@@ -1,0 +1,11 @@
+<div>
+  
+  <p>My Cart</p>
+
+  <p *ngFor="let item of myCartItems">
+    {{ item }} <button (click)="removeItem(item)">Remove</button>
+  </p>
+
+  <p *ngIf="myCartItems.length  == 0">Cart is Empty</p>
+
+</div>

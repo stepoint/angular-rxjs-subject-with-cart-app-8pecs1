@@ -1,0 +1,8 @@
+/* Add application styles & imports to this file! */
+
+div{
+  min-height: 200px;
+  border:1px solid green;
+  margin: 10px;
+  text-align: center;
+}
